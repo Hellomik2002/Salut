@@ -16,7 +16,8 @@
   "dependencies": {
     "@ionic/core": "one",
     "@stencil/router": "^1.0.0",
-    "firebase": "^6.1.0"
+    "firebase": "^6.1.0",
+    "webcomponent-qr-code": "^1.0.5"
   },
   "devDependencies": {
     "@stencil/core": "^1.0.0"

@@ -1,6 +1,7 @@
 import { Component, h, Prop } from '@stencil/core';
 import firebase from 'firebase';
 import { MatchResults } from '@stencil/router';
+import 'webcomponent-qr-code'
 
 @Component({
     tag: 'update-records',
@@ -73,7 +74,7 @@ export class UpdateRecords {
                     <div class="card card-chart">
                         <div class="card-header">
                             <div class="ct-chart">
-                                <img src="" alt="" />
+                                <qr-code data={`https://209.182.216.197/autho/${this.match.params.number}`} />
                             </div>
                         </div>
                         <div class="card-body">
